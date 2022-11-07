@@ -3,6 +3,6 @@ const contain = document.getElementById("container");
 let i = 0;
 
 while (i < listaSpesa.length) {
-    contain.innerHTML += " " + listaSpesa[i] + " " ;
+    contain.innerHTML += " " + listaSpesa[i];
     i++;
 }
